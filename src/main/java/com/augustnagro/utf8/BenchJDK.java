@@ -21,7 +21,7 @@ public class BenchJDK {
   private static final LookupTables LUTS_256 = new LookupTables256();
   private static final LookupTables LUTS_512 = new LookupTables512();
 
-  @Param({"/twitter.json", "/utf8-demo.txt", "/utf8-demo-invalid.txt", "/20k.txt"})
+  @Param({"/twitter.json", "/20k.txt"})
   String testFile;
 
   byte[] buf;
